@@ -13,7 +13,7 @@ app.get('/data', (req, res) => {
   res.json({
     profile: {
       name: 'Hetvi Patel',
-      profilePic: 'https://res.cloudinary.com/dfu0zhpxj/image/upload/v1726790463/IMG_1562_oasayj.jpg' // Replace with your actual image URL
+      profilePic: 'https://res.cloudinary.com/dfu0zhpxj/image/upload/v1726976144/myprofile_q7lam4.jpg' // Replace with your actual image URL
     },
     projects: [
       {
@@ -25,10 +25,24 @@ app.get('/data', (req, res) => {
       },
       {
         id: 2,
-        title: 'Project 2',
+        title: 'Digital Escort',
         description: 'A mobile app that solves real-world challenges.',
-        wallpaper: 'https://example.com/project2.jpg',
-        githubLink: 'https://github.com/hetvi/project2'
+        wallpaper: 'https://res.cloudinary.com/dfu0zhpxj/image/upload/v1726976911/digital-escort_q6rvym.png',
+        githubLink: 'https://github.com/Hetvi2010/Digital_escort'
+      },
+      {
+        id: 3,
+        title: 'Rent Ripple',
+        description: 'A cool web app that helps streamline workflow.',
+        wallpaper: 'https://res.cloudinary.com/dfu0zhpxj/image/upload/v1726977093/Rent-ripple_iieeb9.jpg', // Replace with your actual project image URL
+        githubLink: 'https://github.com/RentRipple' // Replace with your actual GitHub link
+      },
+      {
+        id: 4,
+        title: 'Socket Programming',
+        description: 'A cool web app that helps streamline workflow.',
+        wallpaper: 'https://res.cloudinary.com/dfu0zhpxj/image/upload/v1726977389/socket_ot5ing.jpg', // Replace with your actual project image URL
+        githubLink: 'https://github.com/Hetvi2010/Socket-Programming' // Replace with your actual GitHub link
       }
     ]
   });
